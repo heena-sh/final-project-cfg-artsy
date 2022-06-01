@@ -1,0 +1,175 @@
+/*/ nav /*/
+
+.navbar{
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+    background-color: #F4FCFF;
+}
+
+.navbar-brand-img{
+    width: 65px;
+    height: 80px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*/ nav bar content /*/
+
+.nav-item{
+    width: 134px;
+    height: 54px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #03045E;
+}
+
+.nav-content{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav a{
+    font-weight: lighter;
+}
+
+/*/ link style /*/
+
+/*/ unvisited link /*/
+nav a:link {
+ color: #03045E;
+ text-decoration: none;
+}
+
+/*/ visited link /*/
+nav a:visited {
+    color: #03045E;
+}
+
+/*/ mouse over link /*/
+nav a:hover {
+    text-decoration:  #00B4D8  2.5px line-through;
+}
+
+/*/ nav-end /*/
+
+/*/ footer /*/
+
+/*/ footer left /*/
+
+.ft-container{
+    display: flex;
+    position:sticky;
+    margin-top: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 180px;
+    background: #F4FCFF;
+    align-items: center;
+}
+
+.ft-logo-img{
+    width: 102px;
+    height: 119px;
+}
+
+.ft-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*/ footer middle /*/
+
+.ft-big-container{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: top;
+    align-items: baseline;
+}
+
+.ft-big-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 239.5px;
+}
+
+#contact_footer{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #03045E;
+    width: 238.06px;
+    height: 48px;
+}
+
+/*/ footer right /*/
+
+.ft-links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#ft-links{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #03045E;
+    width: auto;
+    height: 48px;
+    margin: 0;
+}
+
+.ft-links-right{
+    list-style: none;
+    padding: 0;
+}
+
+.ft-item{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #00B4D8;
+}
+
+a link {
+    color: #00B4D8;
+    text-decoration: none;
+   }
+   
+   /*/ visited link /*/
+a:visited {
+       color: #00B4D8;
+       text-decoration: none;
+   }
+   
+   /*/ mouse over link /*/
+ a:hover {
+       text-decoration:  #CAF0F8  2.5px line-through;
+   }
+
+.ft-link{
+    color: #00B4D8;
+    text-decoration: none;
+   }

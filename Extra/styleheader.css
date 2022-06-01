@@ -1,0 +1,64 @@
+/*/ nav image /*/
+
+.navbar{
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+    background-color: #F4FCFF;
+}
+
+.navbar-brand-img{
+    width: 65px;
+    height: 80px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*/ nav bar content /*/
+
+.nav-item{
+    width: 134px;
+    height: 54px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #03045E;
+}
+
+.nav-content{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav a{
+    font-weight: lighter;
+}
+
+/*/ link style /*/
+
+/*/ unvisited link /*/
+nav a:link {
+ color: #03045E;
+ text-decoration: none;
+}
+
+/*/ visited link /*/
+nav a:visited {
+    color: #03045E;
+}
+
+/*/ mouse over link /*/
+nav a:hover {
+    text-decoration:  #00B4D8  2.5px line-through;
+}

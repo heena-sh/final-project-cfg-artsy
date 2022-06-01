@@ -1,0 +1,357 @@
+/*/ nav image /*/
+
+.navbar{
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+    background-color: #F4FCFF;
+}
+
+.navbar-brand-img{
+    width: 65px;
+    height: 80px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*/ nav bar content /*/
+
+.nav-item{
+    width: 134px;
+    height: 54px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #03045E;
+}
+
+.nav-content{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+nav a{
+    font-weight: lighter;
+}
+
+/*/ link style /*/
+
+/*/ unvisited link /*/
+nav a:link {
+ color: #03045E;
+ text-decoration: none;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+/*/ visited link /*/
+nav a:visited {
+    color: #03045E;
+}
+
+/*/ mouse over link /*/
+nav a:hover {
+    text-decoration:  #00B4D8  2.5px line-through;
+}
+
+
+/*/ page header /*/
+
+#contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    vertical-align: top;
+    align-items:baseline;
+    height: auto;
+    padding: 30px;
+    background-color: #F4FCFF;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#contact_header{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 90px;
+    color: #03045E;
+    width: auto;
+    height: 90px;
+}
+
+/*/ main body /*/
+
+#main_contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    align-items: center;
+}
+
+/*/ contact-left /*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    row-gap: 100px;
+
+}
+
+.left_1{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    position: relative;
+    width: 546px;
+    /*height: 109px;*/
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #03045E;
+    margin: 0;
+}
+
+h3{
+    position: relative;
+    width: 450px;
+    /*height: 72px;*/
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -0.065em;
+    color: #0002A1;
+    margin: 0;
+    padding: 0;
+}
+
+section.left_2{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+}
+
+p, a body{
+    /*width: 404px;
+    height: 68px;*/
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.065em;
+    color: #0096C7;
+}
+
+/*/ contact-right /*/
+/*/ form styling /*/
+
+article.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#contact_form{
+    width: 500px;
+    padding: 40px;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #0096C7;
+    flex: none;
+    flex-grow: 0;
+    margin: -8px 0px;
+    border: none;
+}
+
+form fieldset{
+    padding: 20px;
+    border: none;
+}
+
+form input, form textarea{
+    display: block;
+    margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#contact_message{
+    width: 350px;
+    height: 150px;
+}
+
+form input[type="text"], form input[type="email"]{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/*/ submit button /*/
+
+form input[type="submit"]{
+    position: relative;
+    background: #CAF0F8;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    width: 300px;
+    height: 54px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 36px;
+    color: #03045E;
+    align-items: center;
+}
+
+form input[type="submit"]:hover {
+    background: #85e7fb;
+    text-decoration: none;
+}
+
+/*/ footer /*/
+
+.ft-container{
+    display: flex;
+    position:sticky;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 180px;
+    background: #F4FCFF;
+    align-items: center;
+}
+
+.ft-logo-img{
+    width: 102px;
+    height: 119px;
+}
+
+.ft-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*/ footer middle /*/
+
+.ft-big-container{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: top;
+    align-items: baseline;
+}
+
+.ft-big-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 239.5px;
+}
+
+#contact_footer{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #03045E;
+    width: 238.06px;
+    height: 48px;
+}
+
+/*/ footer right /*/
+
+.ft-links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#ft-links{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #03045E;
+    width: auto;
+    height: 48px;
+    margin: 0;
+}
+
+.ft-links-right{
+    list-style: none;
+    padding: 0;
+}
+
+.ft-item{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #00B4D8;
+}
+
+a link {
+    color: #00B4D8;
+    text-decoration: none;
+   }
+   
+   /*/ visited link /*/
+a:visited {
+       color: #00B4D8;
+       text-decoration: none;
+   }
+   
+   /*/ mouse over link /*/
+ a:hover {
+       text-decoration:  #CAF0F8  2.5px line-through;
+   }
+
+.ft-link{
+    color: #00B4D8;
+    text-decoration: none;
+   }
